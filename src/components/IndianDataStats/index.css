@@ -1,0 +1,70 @@
+.stats-main-container {
+  width: 979px;
+  height: 142px;
+  top: 328px;
+  left: 230px;
+  display: flex;
+
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.each-card {
+  width: 264px;
+  width: 236px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 14px;
+}
+
+@media screen and (max-width: 767px) {
+  .stats-main-container {
+    width: 85%;
+    display: flex;
+    height: 350px;
+    justify-content: space-between;
+    align-items: center;
+
+    flex-wrap: wrap;
+  }
+  .each-card {
+    width: 40%;
+    height: 96px;
+    top: 176px;
+    left: 62px;
+  }
+}
+
+.stats-text {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.confiremed {
+  color: #ff073a;
+}
+.active {
+  color: #007bff;
+}
+.recovered {
+  color: #28a745;
+}
+.deceased {
+  color: #6c757d;
+}
+
+.count-text {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+}

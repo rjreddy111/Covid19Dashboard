@@ -1,0 +1,47 @@
+.about-heading {
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #f8fafc;
+}
+
+.about-container-main {
+  background-color: #161625;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 20px;
+  width: 100%;
+}
+
+.about-top-text {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #94a3b8;
+}
+
+.about-vaccine-text {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #e2e8f0;
+}
+
+.unorder-list {
+  padding-left: 0px;
+}
+
+.factoids {
+  color: #ffffff;
+  font-size: 26px;
+}

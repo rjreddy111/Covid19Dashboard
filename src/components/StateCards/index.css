@@ -1,0 +1,113 @@
+.state-cards-container {
+  width: 100%;
+  height: 232px;
+  top: 308px;
+  left: 150px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+
+.card {
+  width: 250px;
+  height: 232px;
+  top: 308px;
+  left: 150px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .card {
+    width: 40%;
+    height: 160px;
+    top: 88px;
+    left: 24px;
+    border-radius: 8px;
+  }
+  .state-cards-container {
+    width: 95%;
+    height: 640px;
+    top: 744px;
+    left: -1994px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+
+.Confirmed {
+  color: #ff073a;
+}
+
+.Confirmed:hover {
+  background-color: #331427;
+}
+.Confirmed:focus {
+  background-color: #331427;
+}
+
+.confirmed-card {
+  background: #331427;
+}
+.sate-para {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.state-number {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.Active {
+  color: #007bff;
+}
+
+.Active:hover {
+  background: #132240;
+}
+.Active:focus {
+  background: #132240;
+}
+
+.Recovered {
+  color: #28a745;
+}
+
+.Recovered:hover {
+  background-color: #182829;
+}
+.Recovered:focus {
+  background-color: #182829;
+}
+.Deceased {
+  color: #6c757d;
+}
+.Deceased:hover {
+  background-color: #212230;
+}
+.Deceased:focus {
+  background-color: #212230;
+}
+
+.state-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,131 @@
+.state_wise-main-container {
+  min-height: 100vh;
+  background-color: #161625;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  padding: 20px;
+  background-size: cover;
+  width: 100%;
+}
+
+.state-wise-top-lines {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.total-tested-nubers {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #94a3b8;
+}
+.state-name {
+  width: Fixed (312px);
+  height: Fixed (64px);
+  top: 144px;
+  left: 150px;
+  padding: 11px 21px 11px 21px;
+  border-radius: 32px;
+  background: #0284c729;
+  color: #0ea5e9;
+
+  font-family: HK Grotesk;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0em;
+}
+
+@media screen and (max-width: 767px) {
+  .state-name {
+    width: Fixed (156px);
+    height: Fixed (32px);
+    top: 80px;
+    left: 24px;
+    padding: 5.270588397979736px 10.541176795959473px 5.270588397979736px
+      10.541176795959473px;
+    border-radius: 16px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+}
+.updated-date-text {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #cbd5e1;
+}
+
+.tested-text {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #94a3b8;
+}
+
+.state-cards {
+  width: 100%;
+}
+.state-top-district-unordered {
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.top-distrit-heading {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.Confirmed {
+  color: #ff073a;
+}
+.Active {
+  color: #007bff;
+}
+
+.Recovered {
+  color: #28a745;
+}
+
+.charts-main-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+  width: 100%;
+}
+
+.state-respective-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.loader-design {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

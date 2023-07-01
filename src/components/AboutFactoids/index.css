@@ -1,0 +1,10 @@
+.banner {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #007bff;
+  line-height: 32px;
+  margin-top: 6px;
+  list-style-type: none;
+}

@@ -1,0 +1,66 @@
+.charts-container-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bar-char-configuraion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.daily-trends-heading {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #cbd5e1;
+}
+
+.graphs-main-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.confirmed-red {
+  background-color: #331427;
+
+  border-radius: 12px;
+  padding: 5%;
+  margin: 3%;
+}
+
+.active-blue {
+  background-color: #132240;
+  border-radius: 12px;
+  padding: 5%;
+  margin-bottom: 3%;
+}
+
+.recovered-green {
+  background-color: #182829;
+  border-radius: 12px;
+  padding: 5%;
+  margin-bottom: 3%;
+}
+
+.deceased-grey {
+  background-color: #1c1c2b;
+  border-radius: 12px;
+  padding: 5%;
+  margin-bottom: 3%;
+}
+.tested-voilet {
+  background-color: #230f41;
+  border-radius: 12px;
+  padding: 5%;
+  margin-bottom: 3%;
+}

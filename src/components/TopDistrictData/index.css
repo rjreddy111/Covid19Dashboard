@@ -1,0 +1,50 @@
+.top-districts-list-style {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  width: 194px;
+}
+@media screen and (max-width: 767px) {
+  .top-districts-list-style {
+    width: 45%;
+  }
+}
+
+.top-district-number {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  margin-right: 8px;
+}
+
+.top-district-names {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #94a3b8;
+}
+@media screen and (max-width: 767px) {
+  .top-district-number {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .top-district-names {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+}

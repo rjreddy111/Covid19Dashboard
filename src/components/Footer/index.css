@@ -1,0 +1,60 @@
+.footer-header {
+  font-family: Bree Serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #f8fafc;
+}
+.footer-span {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #3b82f6;
+}
+
+@media screen and (max-width: 767px) {
+  .footer-header {
+    font-family: Bree Serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+}
+
+.footer-text {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #94a3b8;
+}
+
+.icons {
+  width: 47px;
+  height: 61px;
+  top: 2880px;
+  left: 693px;
+  color: #cbd5e1;
+}
+.social-meda-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 45px;
+}

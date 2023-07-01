@@ -1,0 +1,29 @@
+.staes-column {
+  width: 380px;
+  padding: 15px;
+  font-size: 14px;
+}
+.state-list-container {
+  width: 1146px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.each-case {
+  width: 150px;
+}
+.each-column {
+  width: 250px;
+  font-size: 14px;
+}
+
+.confirm {
+  color: #ff073a;
+}
+.state-link {
+  text-decoration: none;
+  color: #f1f5f9;
+}
